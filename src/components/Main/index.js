@@ -4,8 +4,9 @@ import style from "./main.css";
 export const Main = () => {
   return (
     <div className='firstContainer'>
-        <div className='welcomeText'>Добро пожаловать на мою страничку
-Здесь вы можете реактивно развлекаться</div>
+        <div className='welcomeText'>
+        <p>Добро пожаловать на мою страничку</p>
+<p>Здесь вы можете реактивно развлекаться</p></div>
 <button className='buttonCreate'>Создать пост</button>
     </div>
   )

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import style from './style.module.css'
+import style from './style.module.css';
+import { Info } from '../Info';
 
-export const Header = () => {
+export const Header = ({user}) => {
   
   return (
     <div className={style.mainContainer}>
-      <div className={style.logoContainer}>logo РЕАКТИВНЫЕ ПОСТЫ</div>
-      <div className={style.buttonContainer}>BUTTON</div>
+    <div className={style.logoContainer}> Реактивные посты</div>
+     <Info {...user} />
     </div>
   );
 };
